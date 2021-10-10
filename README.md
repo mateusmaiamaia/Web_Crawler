@@ -1,11 +1,16 @@
 ## Sobre
-<<<<<<< HEAD
 
 Este programa busca e extrai a agenda de autoridades da Agência Nacional de Águas.
 
 ## Pré-requisito
 
-```Python3``` e ```BeautifulSoup``` 
+```Python3``` , ```BeautifulSoup```, ```Docker``` e ```Docker Compose```
+
+● Isntale o Docker utilizando o tutorial do link abaixo
+```https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt```
+
+● Instale o Docker Compose utilizando o tutorial do link abaixo  
+```https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt```
 
 ## Como utilizar
 
@@ -14,11 +19,8 @@ Este programa busca e extrai a agenda de autoridades da Agência Nacional de Ág
 git clone https://github.com/mateusmaiamaia/Web_Crawler.git
 ```
 
-● Abra a pasta e execute o arquivo ```crawler_datapolicy.py```
-
-=======
->>>>>>> ebae847b0502193179332733af62c82a4f6075d5
-```python3 
-Oi, eu sou o Mateus Maia, Desenvolvedor.
+●  Execute com o comando 
+```
+sudo docker-compose up
 ```
 
