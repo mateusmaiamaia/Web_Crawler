@@ -17,8 +17,6 @@ git clone https://github.com/mateusmaiamaia/Web_Crawler.git
 
 ● Abra a pasta e execute o arquivo ```crawler_datapolicy.py```
 
-● Utilize o comando abaixo
-
 ```python3 
 python3 src/crawler_datapolicy.py
 ```

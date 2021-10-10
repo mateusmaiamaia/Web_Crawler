@@ -12,13 +12,13 @@ def make_soup(url):
 
 
 def get_name(soup):
-    name = soup.find('div', {'class': 'pessoa-nome'})
+    name = soup.find('div', {'class': 'pessoa-nome'}) # Tenta encontrar o nome na tag ideal 
 
     if not name:
-        name = soup.find('div', {'class': 'documentDescription'})
+        name = soup.find('div', {'class': 'documentDescription'}) # Usa o subtitulo se nao encontrar 
 
     if not name:
-        name = soup.find('h1', {'class': 'documentFirstHeading'})
+        name = soup.find('h1', {'class': 'documentFirstHeading'}) # Usa o titulo como ultima opcao
 
     name = name.text if name else None
 
