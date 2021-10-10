@@ -6,11 +6,14 @@ Este programa busca e extrai a agenda de autoridades da Agência Nacional de Ág
 
 ```Python3``` , ```BeautifulSoup```, ```Docker``` e ```Docker Compose```
 
-● Isntale o Docker utilizando o tutorial do link abaixo
-```https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt```
+● Instale o Docker utilizando esse tutorial  
 
-● Instale o Docker Compose utilizando o tutorial do link abaixo  
-```https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt```
+<https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt>
+
+● Instale o Docker Compose utilizando esse tutorial 
+
+<https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt>
+
 
 ## Como utilizar
 
